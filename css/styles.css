@@ -1,38 +1,54 @@
-* {box-sizing: border-box}
 
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-    height: 100%;
-    margin: 0;
+body {margin:0;
+    background-repeat: no-repeat;
+    background-color:#376ad3;
     font-family: Arial;
 }
 
-/* Style tab links */
-.tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #29509c;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
 }
 
-.tablink:hover {
-    background-color: #777;
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: 1px solid white;
 }
-  
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 100px 20px;
-    height: 100%;
+
+#logo {
+    float:left;
+    width: 3.5%;
 }
-  
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+    color: whitesmoke;
+}
+
+.headshot {
+    margin: 20px 30px 20px 0px;
+    float: left;
+    border: 2px solid white;
+}
