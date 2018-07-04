@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -9,45 +10,342 @@
 </head>
 
 <body>
-
+<!-- Navigation Bar -->
     <div class="navbar">
-        
         <a href="#Summary">Summary</a>
-        <a href="#Experience">Experience</a>
+        <a href="#Experience">Work Experience</a>
         <a href="#Education">Education</a>
-        <a href="#Projects">Projects</a>
+        <a href="#Projects">Side Projects</a>
         <a href="#Skills">Skills</a>
-        <a href="#Contact">Contact</a>
+        <a href="#Contact">Contact Me</a>
     </div>
-      
+<!-- End Navagation Bar -->
+
+<!-- Header -->
     <div class="main">
         <img src="images/headshot2.png" width = "10%" class="headshot">
         <h2 style= "margin-top: 20px">Andrei Petcu (U.S. Citizen)</h2>
         <h2>Mechanical Project Engineer with Programming Experience</h2>
         <p style= "border-bottom:2px solid white; clear:left;"></p>
-        <h2 style="clear:left;">Summary</h2>
+        <h2 id= "Summary" style="clear:left;">Summary</h2>
             <p>
-                Hi! I'm Andrei, project engineer extraordinaire with over 7 years of experience in the mechanical and industrial engineering fields. <br>
-                I have successfully designed mass-produced injection-molded components as well as made-to-order ASME vessels.<br>
+                Hi! I'm Andrei, project engineer with over 7 years of experience in the mechanical and industrial engineering fields. <br>
+                I have successfully designed mass-produced injection-molded components as well as made-to-order ASME pressure vessels with custom controls.<br>
                 <br>
-                I have graduated with honors from the reputable University of California, Irvine with a Masters in Aerospace Engineering specializing in Fluid-Dynamics. <br>
-                I especially enjoyed the classes with a heavy focus on programming. Some of my favorite projects were simulating a fluid flow and watching a computer generate the results, or programming a microcontroller to react to external input.<br>
+                I graduated from the University of California, Irvine with a Masters in Aerospace Engineering specializing in Fluid-Dynamics. <br>
+                I especially enjoyed classes with a heavy focus on programming. Some of my favorite projects were simulating a fluid flow and watching a computer generate the 
+                results. I also enjoyed learning how to program microcontrollers like the Arduino and Raspberry Pi.<br>
                 <br>
-                In my free time I enjoy biking, snowboarding, reading the latest Sci-Fi books, building and flying drones, and learning open-source software and other programming languages.<br>
+                In my free time I enjoy biking, snowboarding, reading the latest Sci-Fi books, building and flying drones, learning open-source software, and developing apps.<br>
                 <br>
                 You are welcome to explore my website and please feel free to contact me if I can be of service.
             </p>
         <p style= "border-bottom:2px solid white; clear:left;"></p>                
 
-        <h2 style="clear:left;">Experience</h2>   
-            <h2>PULSCO Inc.</h2>
-                <p>test</p> 
-        <h1>Education</h1>
-        <h1>Side Projects</h1>
-        <h1>Skills</h1>
-        <h1>Contact</h1>
-    </div>
+        <h2 id= "Experience">Work Experience</h2>   
+            
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+            <img src="images/20180403_090843.jpg" style="width:100%;">
+            <div class="text">Surge System in operation. Monitors water level and pressures to protect pipelines against trainsient events.</div>
+            </div>
 
+            <div class="mySlides fade">
+                <img src="images/20180215_140746.jpg" style="width:100%">
+                <div class="text">Surge System.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/20170215_102449.jpg" style="width:100%">
+                <div class="text">Custom control panel for surge tank.</div>
+             </div>
+
+            <div class="mySlides fade">
+                <img src="images/20180110_095128.jpg" style="width:100%">
+                <div class="text">Custom control panel for Quincy compressor. Also shown is PULSCO's PLC/HMI  controller.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/20180404_083651.jpg" style="width:100%">
+                <div class="text">ShockTracker device that records pressures within pipeline during a surge event.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/ShockTracker.PNG" style="width:100%">
+                <div class="text">ShockTracker Software. Developed in C++. Records pressures in real time.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/DSCF8513.jpg" style="width:100%">
+                <div class="text">Pulsation dampener.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/Change Request EPDM.PNG" style="width:100%">
+                <div class="text">Solidworks PDM workflow for change requests.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/Access Database Design 3.PNG" style="width:100%">
+                <div class="text">Microsoft Access database showing reference map.</div>
+            </div>
+
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+                <span class="dot" onclick="currentSlide(7)"></span> 
+                <span class="dot" onclick="currentSlide(8)"></span>  
+                <span class="dot" onclick="currentSlide(9)"></span>
+            </div>
+        </div>
+
+        
+                <div>
+                <a href="http://www.pulsco.com/" target="_blank"><img src="images/PULSCO.png"></a>
+                <p style="margin:0px;">Project Engineer<br></p>
+                <p style="margin:0px;">May 2015 - Present</p>
+                </div>
+            <p>
+                    <a href="http://www.pulsco.com/810" target="_blank">Dampener Project Engineer:</a> <br>
+                    Worked with customers to properly size and fabricate acoustic dampeners. Quoted, designed, and delivered dampeners that would meet customer requirements.<br>
+                    <br>
+                    <a href ="http://www.pulsco.com/750" target="_blank">Hydropneumatics Project Engineer:</a> <br>
+                    Analyzed customer’s pipelines to provide and design surge/pressure control systems. The systems included an ASME designed pressure vessel 
+                    with control logic that monitored pressures and water levels. Delivered complete systems with on-site startup and training services. <br>
+                    <br>
+                    <u>Document Control:</u> <br>
+                    Implemented SolidWorks PDM system. Designed Workflows, custom VB.Net API scripts, and wrote standard operating procedures on how to release and revise documents 
+                    within a PDM system. <br>
+                    <br>
+                    <u>Database Design:</u> <br>
+                    Designed PULSCO's quote and project management database. Database monitors all quotes and projects for deadlines as well as inventory levels, KPI's, and purchase 
+                    order requests.<br>
+                    <br>
+                    <u>New Product Development:</u><br>
+                    <ul>
+                    <li>Developing helmholtz and bladder type pulsation dampeners.</li>
+                    <li>ShockTracker application that records pressure transients through a 4-20mA sensor. Written in C++ and using standard windows drivers for interfacing with sensors.</li>                   
+                    </ul>
+            </p>
+            <a href="https://www.solarturbines.com/en_US/index.html" target="_blank"><img src="images/CM20171101-51995-15572.jpg"></a>
+            <p style="margin:0px;">Design Engineer<br></p>
+            <p style="margin:0px;">August 2014 - May 2015</p>
+            <p>
+                <u>Experience gained:</u> <br>
+                Parametric modeling and design of various Solar Turbine components using Pro/E. Mechanical interface drawings, shop floor drawings, frame drawings, parametric modeling of components, 
+                general Solar Turbines product exposure.
+            </p>
+            <a href="https://www.fluidmaster.com/" target="_blank"><img src="images/FLUIDMASTER.png"></a>
+            <p style="margin:0px;">Intern / Project Engineer<br></p>
+            <p style="margin:0px;">June 2012 - August 2014</p>
+            <p>
+                    <u>Sustaining Engineering:</u><br>
+                     Redesigned components to meet customer and quality satisfaction.<br>
+                    <br>
+                    <u>New inspection development:</u><br>
+                    In charge of new tooling qualification system that scans molded parts and then compares the parts directly to the CAD model. 
+                    This new system will drastically decrease inspection time and the quality of information obtained during inspection will also be improved.<br>
+                    <br>
+                    <u>Cost reduction project:</u><br>
+                    Helped reduce production cost of highest selling product without decreasing the quality.<br>
+                    <br>
+                    <u>Experience gained:</u><br>
+                    Design work in PTS CREO + Windchill, Rapid Prototyping, Test procedures, business propositions, engineering change requests, tooling qualifications, 
+                    use of MRP system, obtaining quotes, basic PLC programming, Polyworks, Spec.Check, 3D scanning, Injection molding, PDP, communicating in a professional work environment.
+            </p>
+        <p style= "border-bottom:2px solid white; clear:left;"></p>  
+        
+        <h2 id= "Education">Education</h2>
+
+        <div class="slideshow-container">
+            <div class="mySlides2 fade">
+            <img src="images/uc_irvine.jpg" style="width:100%;">
+            <div class="text">Obama delivering the commencement at UC Irvine for the class of 2014.</div>
+            </div>
+
+            <div class="mySlides2 fade">
+                <img src="images/U 20.png" style="width:100%">
+                <div class="text">Fluid flow in a pipe with an abrupt change in diameter. Plotting U velocity.</div>
+            </div>
+
+            <div class="mySlides2 fade">
+                <img src="images/SL 20.png" style="width:100%">
+                <div class="text">Fluid flow in a pipe with an abrupt change in diamter. Plotting streamlines.</div>
+             </div>
+
+            <div class="mySlides2 fade">
+                <img src="images/Screenshot from 2018-07-03 18-27-00.png" style="width:100%">
+                <div class="text">Final design project. Sizing of a Fuselage.</div>
+            </div>
+
+            <div class="mySlides2 fade">
+                <img src="images/Screenshot from 2018-07-03 18-27-47.png" style="width:100%">
+                <div class="text">Final design project. Sizing a passenger plane.</div>
+            </div>
+
+            <div class="mySlides2 fade">
+                <video style="width:100%;" controls>
+                    <source src="images/Final-Project-Video.mp4" type="video/mp4">
+                </video>
+                <div class="text">Autonomous dodge ball robot design project.</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+            <br>
+            <div style="text-align:center">
+                <span class="dot2" onclick="currentSlide2(1)"></span> 
+                <span class="dot2" onclick="currentSlide2(2)"></span> 
+                <span class="dot2" onclick="currentSlide2(3)"></span> 
+                <span class="dot2" onclick="currentSlide2(4)"></span>
+                <span class="dot2" onclick="currentSlide2(5)"></span> 
+                <span class="dot2" onclick="currentSlide2(6)"></span> 
+            </div>
+        </div>
+
+        
+            <a href="https://news.uci.edu/2017/09/12/uci-is-ranked-9th-among-nations-public-universities-by-u-s-news-world-report/" target="_blank"><img src = "images/uci.png" style = "width:200px"> </a>
+            <p style = "margin:0px;">
+                <u>Masters of Science in Aerospace Engineering</u> - March 2014 <br>
+                <u>Banchelor of Science in Aerospace and Mechanical Engineering</u> - June 2012
+            </p>
+            <h3><br>Projects</h3>
+            <p>
+                <u>UCI Numerical Methods of Heat, Mass and Momentum Tansport: Laminar Flows</u> - Winter 2014 <br>
+                Used the SIMPLE algorithm to solve a steady viscous laminar flow through a sudden expansion in an axisymmetric pipe.
+                Analyzed the recirculation zone by plotting the streamlines, vorticity, shear stress, velocity and pressure fields.
+                Compared results with previous publications to validate the solution.
+                Programmed the SIMPLER algorithm and compared the computation time with that of SIMPLE. <br>
+                <br>
+                <u>UCI Bio-Robotics</u> - Fall 2014<br>
+                Surveyed state of the art approaches for robotic and mechatronic devices that support and enhance human movement for rehabilitation and surgery.
+                Designed decoder in Mat-Lab for a brain computer interface for a locked in patient.
+                Decoder took input from roughly 1000 neurons and moved a cursor in a direction dependent on the firing rates of those brain neurons.<br>
+                <br>
+                <u>UCI Computational Fluid Dynamics</u> - Fall 2014<br>
+                Programmed common numerical methods for solving compressible Euler and Navier-Stokes equations at subsonic, transonic, and supersonic speeds.
+                Used the numeric schemes to simulate a shock tube, and a supersonic nozzle flow with shock capture.<br>
+                <br>
+                <u>UCI Autonomous Dodge Ball Robot</u> - Spring 2011<br>
+                <b>Team Lead</b><br>
+                Led a team of 4 engineers in the design of an autonomous dodge ball robot. The robot would later compete against other robots at
+                launching and deflecting dodge balls.
+                Robot was designed to track two dodge balls using a computer vision system. When one of the balls was close enough to the robot,
+                it would extend a telescoping arm and knock it out of our side of the court.
+                Used Labview to program the proportional derivative controller of the robot.
+                Designed the gear system, linkages, telescoping arm.<br>
+
+            </p>
+        <p style= "border-bottom:2px solid white; clear:left;"></p>
+
+        <h2 id= "Projects">Side Projects</h2>
+        <div class="slideshow-container">
+            <div class="mySlides3 fade">
+            <img src="images/Screenshot from 2018-07-03 20-21-30.png" style="width:100%;">
+            <div class="text">View of the Anza Borrego flower bloom Captured from Drone.</div>
+            </div>
+
+            <div class="mySlides3 fade">
+                <img src="images/Capture.PNG" style="width:100%">
+                <div class="text">Drone Holding position.</div>
+            </div>
+
+            <div class="mySlides3 fade">
+                <img src="images/20180703_202925.jpg" style="width:100%">
+                <div class="text">Drone.</div>
+             </div>
+
+            <div class="mySlides3 fade">
+                <img src="images/Screenshot from 2018-07-03 20-11-06.png" style="width:100%">
+                <div class="text">Island of Stability Book Cover designed in Blender3D.</div>
+            </div>
+
+
+            <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+            <br>
+            <div style="text-align:center">
+                <span class="dot3" onclick="currentSlide3(1)"></span> 
+                <span class="dot3" onclick="currentSlide3(2)"></span> 
+                <span class="dot3" onclick="currentSlide3(3)"></span> 
+                <span class="dot3" onclick="currentSlide3(4)"></span>
+            </div>
+        </div>
+            <h3>Building a Quadcopter for Aerial Photography</h3>
+            <p>
+                Drone was designed and built using a 32bit flight controller board, 2.4 GHZ PPM remote control, 5.8 GHZ video transmitter/receiver, 2 axis gimbal for stabilized video, 
+                1080p camera, heads up display that shows telemetry, altitude, direction and battery life. Successfully flew drone with an estimated battery life of 15 minutes. Drone can 
+                hold altitude, position and angle using onboard accelerometer, gyro, barometer and GPS. 
+            </p>
+            
+            <a href="https://www.amazon.com/Island-Stability-Steven-Edwards-ebook/dp/B00HQ7Z8WU/ref=la_B003QN66MY_sp-atf_image_1_3?s=books&ie=UTF8&qid=1389587409&sr=1-3" target="_blank"><h3>Co-Author of "Island of Stability"</h3></a>
+            <p>
+                <u>The Island of Stability synopsis:</u><br>
+                In 2019, ASTRA Satellites reveal a mysterious anomaly threatening the world's most secret and powerful machine embedded deep in the Yucatan's Calakmul Biosphere Reserve. 
+                To assess the situation, Admiral Stanchion, director of ASTRA, activates his most lethal team of military operatives: Captain Abel "Stein" Keller, Lunchbox, Carlos, 
+                Liz and Sneed. Trapped within nearly impenetrable jungle in the "Forbidden Zone" of the Central Yucatan, the team makes an astounding discovery that undermines current 
+                thinking about Mayan history as well as our place in the cosmos. Worse, they find that a holy hell of ancient evil is about to be unleashed upon humanity, unless they can 
+                stop it in time. As the action spans half the globe and puts the team to the ultimate tests, Liz and Stein discover the biggest secret of the multiverse, and the true meaning 
+                of the "Island of Stability".
+            </p>
+
+            <h3>This Website!</h3>
+            <p>
+                Using HTML, CSS, and some Javascript
+            </p>
+
+            <h3>Mobile App - Very early stages</h3>
+            <p>
+                The app is being designed using hybrid web technologies. This will allow it to be deployed on all platforms at once without the need to program in multiple languages. 
+                Developed with web languages (html, CSS, & Javascript with JQuery) and wrapped in a native application using Apache Cordova and Phonegap it will allow access to the phone's native device APIs.
+            </p>
+        <p style= "border-bottom:2px solid white; clear:left;"></p>
+
+        <h2 id= "Skills">Skills</h2>
+            <ul>
+                <li>SolidWorks</li>
+                <li>Solidworks PDM - Developer</li>
+                <li>Pro E/ Creo</li>
+                <li>WindChill</li>
+                <li>Blender 3D</li>
+                <li>Abaqus</li>
+                <li>Microsoft Access - Developer</li>
+                <li>Microsoft Office</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript with JQuery</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>FORTRAN</li>
+                <li>MatLab / GNU Octave</li>
+                <li>VB.NET</li>
+                <li>MathCAD</li>
+                <li>Arduino Programming</li>
+                <li>PLC - Alan Bradley or LSIS</li>
+                <li>KYPipe</li>
+                <li>20-Sim Bond Graph Modeling</li>
+            </ul>       
+        <p style= "border-bottom:2px solid white; clear:left;"></p>
+
+        <h2 id= "Contact">Contact Me</h2>
+            <p>
+                Email: chrisan887@hotmail.com <br>
+                <a href="https://www.linkedin.com/in/andreicpetcu/" target="_blank"> LinkedIn</a>
+                <br>
+                <br>
+            </p>
+    
+        </div>
     <script src="js/scripts.js"></script>
 
 </body>
