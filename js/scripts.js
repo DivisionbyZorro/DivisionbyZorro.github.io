@@ -28,7 +28,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-var slideIndex = 1;
 showSlides2(slideIndex);
 
 // Next/previous controls
@@ -57,7 +56,6 @@ function showSlides2(n) {
   dots[slideIndex-1].className += " active";
 }
 
-var slideIndex = 1;
 showSlides3(slideIndex);
 
 // Next/previous controls
